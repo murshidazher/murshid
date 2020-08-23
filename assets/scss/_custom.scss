@@ -1,0 +1,60 @@
+#logo {
+  // position: absolute;
+  // left: 0;
+  // right: 0;
+  // margin: auto;
+  // top: 7px;
+}
+
+#logo * {
+  fill: #282828;
+}
+
+#logo:hover * {
+  animation-name: logo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+  0% {
+    fill: hsl(3, 81%, 73%);
+  }
+
+  25% {
+    fill: hsl(150, 45%, 71%);
+  }
+
+  50% {
+    fill: hsl(197, 72%, 68%);
+  }
+
+  75% {
+    fill: hsl(230, 69%, 77%);
+  }
+
+  100% {
+    fill: hsl(3, 81%, 73%);
+  }
+}
+
+.fadf {
+  color: hsl(3, 81%, 73%);
+}
+
+#header a {
+  font-size: 14px;
+  display: inline-block;
+  height: 60px;
+  color: #282828;
+  text-decoration: none;
+  padding: 0 14px;
+  border-bottom: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#header a:not(.logo):hover {
+  color: black;
+  border-bottom: 1px solid #b7b7b7;
+}

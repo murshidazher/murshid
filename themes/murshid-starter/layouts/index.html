@@ -1,5 +1,106 @@
 {{ define "main" }}
 
+<section class="bg-black-0125 w-100">
+  <article class="pb4">
+    <header class="ph3 ph5-ns w-100 bg-transparent pv3 bb b--black-10 overflow-auto">
+      <div class="nowrap mw9 center">
+        <a title="Getting Started" href="#getting-started" class="pv1-ns f6 fw6 dim link black-70 mr2 mr3-m mr4-l dib">
+          Getting Started
+        </a>
+        <a title="Principles" href="#principles" class="pv1-ns f6 fw6 dim link black-70 mr1 mr3-m mr4-l dib">
+          Principles
+        </a>
+        <a title="Features" href="#features" class="pv1-ns f6 fw6 dim link black-70 mr1 mr3-m mr4-l dib">
+          Features
+        </a>
+        <a title="Style Guide" href="#style" class="pv1-ns f6 fw6 dim link black-70 mr1 mr3-m mr4-l dib">
+          Style Guide
+        </a>
+        <a title="Testimonials" href="#testimonials" class="pv1-ns f6 fw6 dim link black-70 mr1 mr3-m mr4-l dib">
+          Testimonials
+        </a>
+      </div>
+    </header>
+    <div class="ph3 ph5-ns pt4">
+      <section class="mw9 pv4-l center flex flex-wrap items-center-ns">
+        <div class="black-70 w-100 w-50-l">
+          <img
+            alt="{{ .Site.Author.name }}'s headshot"
+            caption=""
+            class="br-100 w3 h3 w-30-ns h-30-ns w-25-l h-30-l mv4 dib cld-responsive lazyload"
+            data-src="{{ .Site.Params.cloudinary_url }}/w_400,dpr_1.0,c_scale,f_webp,fl_awebp.progressive.progressive:semi,f_webp,fl_awebp,q_80/ma-default.jpg"
+            sizes="(max-width: 400px) 100vw, 400px"
+            width="400"
+          />
+          <h1 class="f4 fw6 f3-m f2-ns lh-title measure mt0 mb2">
+            Hey there, I'm {{ .Site.Author.name }}.
+          </h1>
+          <p class="f5 f4-ns measure dib-m lh-copy mt0">
+            Coder, designer and developer.
+          </p>
+          <p class="measure f5 f4-ns lh-copy dn">
+            Modules can be altered, extended, or changed to meet your design needs. You shouldn’t need to write css everytime you want to build a new ui component. By learning the
+            composable building blocks in tachyons, you can quickly start to build out interfaces while writing little to no css.
+          </p>
+        </div>
+      </section>
+    </div>
+  </article>
+  <!-- <article class=" bg-black white ph3 ph5-ns pv4 pv5-ns" id="getting-started">
+    <div class="mw9 center">
+      <h1 class="mt0 f5 f3-ns">Getting Started</h1>
+      <p class="f5 measure lh-copy">
+        Copy the line of code below and paste it in the head of the html file(s) you want to include tachyons in.
+      </p>
+      <pre
+        class="pre black-70"
+        style="overflow: auto"
+      ><code class="code f6 dib pa2 bg-white-20 washed-green" style="font-size: 14px;">&lt;link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/&gt;</code></pre>
+      <p class="mt4"><b>or</b> install via npm</p>
+      <pre class="pre black-70" style="overflow: auto"><code class="code f6 dib pa2 bg-white-20 washed-green" style="font-size: 14px;">npm install tachyons@4.12.0</code></pre>
+      <p class="mt4"><b>or</b> grab all the source files and build+develop locally</p>
+      <pre class="pre" style="overflow: auto"><code class="code f6 dib pa2 bg-white-20 washed-green" style="font-size: 14px;">git clone git@github.com:tachyons-css/tachyons.git
+cd tachyons
+rm -rf .git &amp;&amp; git init
+npm install &amp;&amp; npm start
+</code></pre>
+      <h3 class="f5 f3-ns mt4 fw6">Prototyping template</h3>
+      <p class="lh-copy measure f6">
+        This template is always linked to the most up to date version of Tachyons. Save this file to your computer to start prototyping right away without worrying about setting up
+        a dev environment. You can open the file in a web browser and view your changes.
+      </p>
+      <div class="overflow-auto">
+        <code class="pre f6">
+          &lt;!DOCTYPE html&gt; &lt;html lang="en"&gt; &lt;title&gt; &lt;/title&gt; &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt; &lt;link
+          rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css"&gt; &lt;body&gt; &lt;/body&gt; &lt;/html&gt;
+        </code>
+      </div>
+
+      <section class="bt b--black-10 pv5 mt5 cf">
+        <div class="fl-l w-100 w-50-l pr4-ns">
+          <h3 class="f5 f3-ns mt0">Start a New Project</h3>
+          <p class="f6 f5-ns measure lh-copy mb4 mt0">
+            Get setup and running with this ~7 minute screencast. Download the project and learn how to customize the tachyons source files and recompile the css using the postcss
+            build system.
+          </p>
+        </div>
+        <div class="fl-l w-100 w-50-l">
+          <div class="aspect-ratio aspect-ratio--8x5">
+            <iframe
+              class="aspect-ratio--object"
+              src="https://player.vimeo.com/video/174698456"
+              frameborder="0"
+              webkitallowfullscreen=""
+              mozallowfullscreen=""
+              allowfullscreen=""
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </div>
+  </article> -->
+</section>
+
 <section class="row intro center">
   <img
     alt="{{ .Site.Author.name }}'s headshot"

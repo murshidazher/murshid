@@ -6,13 +6,9 @@
 
 {{ partial "header.html" . .Section  -}}
 
-<main id="main-content">
-  <div class="md:pt-104 lg:pt-88 md:-mt-96">
-    <div class="-my-8 group pt-32 pb-40 md:py-0">
-      {{- block "main" . -}}{{- end -}}
+<main id="main-content" class="w-100 bt b--black-10 bg-white">
+  {{- block "main" . -}}{{- end -}}
 
-    </div>
-  </div>
 </main>
 {{- partialCached "footer.html" . .Type -}}
 <!-- {{ partial "newsletter.html" . }} -->

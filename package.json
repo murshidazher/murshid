@@ -6,7 +6,7 @@
   "author": "Murshid Azher",
   "license": "MIT",
   "scripts": {
-    "precommit": "npm run format",
+    "precommit": "echo \"No Precommit hook\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "hugo server --watch --disableFastRender",
     "clean": "rm -rf public",
@@ -18,7 +18,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run format"
+      "pre-commit": ""
     }
   },
   "lint-staged": {
