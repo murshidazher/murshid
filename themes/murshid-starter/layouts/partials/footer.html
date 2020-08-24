@@ -55,7 +55,7 @@
                   <a class="" href="{{ .Site.Author.linkedin }}" target="_blank" rel="noopener noreferrer" active="false">LinkedIn</a>
                 </li>
                 <li class="footer-nav__list--child">
-                  <a class="" href="{{ .Site.Author.github }}" target="_blank" rel="noopener noreferrer" active="false">Github</a>
+                  <a class="" href="{{ .Site.Author.instagram }}" target="_blank" rel="noopener noreferrer" active="false">Instagram</a>
                 </li>
                 <li class="footer-nav__list--child">
                   <a class="" href="{{ .Site.Author.behance }}" target="_blank" rel="noopener noreferrer" active="false">Behance</a>
@@ -68,6 +68,23 @@
           </div>
         </div>
         <a class="col-lg-2 scroll-up no-outline" onclick="animateToTop(event)">
+          <svg
+            width="16px"
+            height="22px"
+            viewBox="0 0 16 22"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+              <g id="Macbook-Air" transform="translate(-1139.000000, -128.000000)" stroke="#111" stroke-width="2">
+                <g id="arrow-up" transform="translate(1140.000000, 129.000000)">
+                  <line x1="7" y1="20" x2="7" y2="0" id="Path"></line>
+                  <polyline id="Path" points="0 7 7 0 14 7"></polyline>
+                </g>
+              </g>
+            </g>
+          </svg>
         </a>
       </div>
     </div>
@@ -88,35 +105,34 @@
     </section>
   </nav>
 </footer>
-        <!-- Store JS files independently -->
-        {{- $cloudinary := resources.Get "js/cloudinary-core-shrinkwrap.min.js" -}}
-        {{- $lazysizes := resources.Get "js/lazysizes.js" -}}
-        <!-- Concat JS, generate default app.js and app-likes -->
-        {{- $defaultJS := slice $cloudinary $lazysizes | resources.Concat "app.js" -}}
-        <!-- Set default -->
-        {{- $script := $defaultJS -}}
-        <!-- Assign script to global, minify and fingerprint -->
-        {{- $globalJS := $script | resources.Minify | resources.Fingerprint "sha512" -}}
-        <!-- Load script and authenticate hashed file -->
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript" crossorigin="anonymous"></script>
-        <script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}" media="screen"></script>
-        <script>
-        function animateToTop(e) {
-            e.preventDefault()
-            var scrollToTop = window.setInterval(function () {
-            var pos = window.pageYOffset
-            if (pos > 0) {
-                window.scrollTo(0, pos - 20)
-            } else {
-                window.clearInterval(scrollToTop)
-            }
-            }, 2) //two seconds to scroll-up
-        }
-        </script>
-        <script>
-        var cl = cloudinary.Cloudinary.new({
-            cloud_name: 'murshidazher',
-        })
-        cl.responsive()
-        </script>
-
+<!-- Store JS files independently -->
+{{ $cloudinary := resources.Get "js/cloudinary-core-shrinkwrap.min.js" }}
+{{ $lazysizes := resources.Get "js/lazysizes.js" }}
+<!-- Concat JS, generate default app.js and app-likes -->
+{{ $defaultJS := slice $cloudinary $lazysizes | resources.Concat "app.js" }}
+<!-- Set default -->
+{{ $script := $defaultJS }}
+<!-- Assign script to global, minify and fingerprint -->
+{{ $globalJS := $script | resources.Minify | resources.Fingerprint "sha512" }}
+<!-- Load script and authenticate hashed file -->
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript" crossorigin="anonymous"></script>
+<script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}" media="screen"></script>
+<script>
+  function animateToTop(e) {
+    e.preventDefault()
+    var scrollToTop = window.setInterval(function () {
+      var pos = window.pageYOffset
+      if (pos > 0) {
+        window.scrollTo(0, pos - 20)
+      } else {
+        window.clearInterval(scrollToTop)
+      }
+    }, 2) //two seconds to scroll-up
+  }
+</script>
+<script>
+  var cl = cloudinary.Cloudinary.new({
+    cloud_name: 'murshidazher',
+  })
+  cl.responsive()
+</script>
