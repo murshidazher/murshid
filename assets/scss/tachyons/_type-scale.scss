@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 // Converted Variables
 
 // Custom Media Query Variables
 
+=======
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 /*
 
    TYPE SCALE
@@ -35,12 +45,16 @@
 .f-headline {
   font-size: $font-size-headline;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 .f-5,
 .f-subheadline {
   font-size: $font-size-subheadline;
 }
 
+<<<<<<< HEAD
 /* Type Scale */
 
 .f1 {
@@ -114,10 +128,37 @@
   .f7-ns {
     font-size: $font-size-7;
   }
+=======
+
+/* Type Scale */
+
+
+.f1 { font-size: $font-size-1; }
+.f2 { font-size: $font-size-2; }
+.f3 { font-size: $font-size-3; }
+.f4 { font-size: $font-size-4; }
+.f5 { font-size: $font-size-5; }
+.f6 { font-size: $font-size-6; }
+.f7 { font-size: $font-size-7; }
+
+@media #{$breakpoint-not-small}{
+  .f-6-ns,
+  .f-headline-ns { font-size: $font-size-headline; }
+  .f-5-ns,
+  .f-subheadline-ns { font-size: $font-size-subheadline; }
+  .f1-ns { font-size: $font-size-1; }
+  .f2-ns { font-size: $font-size-2; }
+  .f3-ns { font-size: $font-size-3; }
+  .f4-ns { font-size: $font-size-4; }
+  .f5-ns { font-size: $font-size-5; }
+  .f6-ns { font-size: $font-size-6; }
+  .f7-ns { font-size: $font-size-7; }
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }
 
 @media #{$breakpoint-medium} {
   .f-6-m,
+<<<<<<< HEAD
   .f-headline-m {
     font-size: $font-size-headline;
   }
@@ -154,6 +195,18 @@
   .f7-m {
     font-size: $font-size-7;
   }
+=======
+  .f-headline-m { font-size: $font-size-headline; }
+  .f-5-m,
+  .f-subheadline-m { font-size: $font-size-subheadline; }
+  .f1-m { font-size: $font-size-1; }
+  .f2-m { font-size: $font-size-2; }
+  .f3-m { font-size: $font-size-3; }
+  .f4-m { font-size: $font-size-4; }
+  .f5-m { font-size: $font-size-5; }
+  .f6-m { font-size: $font-size-6; }
+  .f7-m { font-size: $font-size-7; }
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }
 
 @media #{$breakpoint-large} {
@@ -161,11 +214,15 @@
   .f-headline-l {
     font-size: $font-size-headline;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   .f-5-l,
   .f-subheadline-l {
     font-size: $font-size-subheadline;
   }
+<<<<<<< HEAD
 
   .f1-l {
     font-size: $font-size-1;
@@ -194,4 +251,13 @@
   .f7-l {
     font-size: $font-size-7;
   }
+=======
+  .f1-l { font-size: $font-size-1; }
+  .f2-l { font-size: $font-size-2; }
+  .f3-l { font-size: $font-size-3; }
+  .f4-l { font-size: $font-size-4; }
+  .f5-l { font-size: $font-size-5; }
+  .f6-l { font-size: $font-size-6; }
+  .f7-l { font-size: $font-size-7; }
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }

@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 // Converted Variables
 
 // Custom Media Query Variables
 
+=======
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 /*
 
    TEXT TRANSFORM
@@ -23,6 +33,7 @@
 
 */
 
+<<<<<<< HEAD
 .ttc {
   text-transform: capitalize;
 }
@@ -79,4 +90,30 @@
   .ttn-l {
     text-transform: none;
   }
+=======
+.ttc { text-transform: capitalize; }
+.ttl { text-transform: lowercase; }
+.ttu { text-transform: uppercase; }
+.ttn { text-transform: none; }
+
+@media #{$breakpoint-not-small} {
+  .ttc-ns { text-transform: capitalize; }
+  .ttl-ns { text-transform: lowercase; }
+  .ttu-ns { text-transform: uppercase; }
+  .ttn-ns { text-transform: none; }
+}
+
+@media #{$breakpoint-medium} {
+  .ttc-m { text-transform: capitalize; }
+  .ttl-m { text-transform: lowercase; }
+  .ttu-m { text-transform: uppercase; }
+  .ttn-m { text-transform: none; }
+}
+
+@media #{$breakpoint-large} {
+  .ttc-l { text-transform: capitalize; }
+  .ttl-l { text-transform: lowercase; }
+  .ttu-l { text-transform: uppercase; }
+  .ttn-l { text-transform: none; }
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }

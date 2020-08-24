@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 // Converted Variables
 
 // Custom Media Query Variables
 
+=======
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 /*
 
    COORDINATES
@@ -29,6 +39,7 @@
 
 */
 
+<<<<<<< HEAD
 .top-0 {
   top: 0;
 }
@@ -93,6 +104,33 @@
 .left--2 {
   left: -2rem;
 }
+=======
+.top-0    { top:    0; }
+.right-0  { right:  0; }
+.bottom-0 { bottom: 0; }
+.left-0   { left:   0; }
+
+.top-1    { top:    1rem; }
+.right-1  { right:  1rem; }
+.bottom-1 { bottom: 1rem; }
+.left-1   { left:   1rem; }
+
+.top-2    { top:    2rem; }
+.right-2  { right:  2rem; }
+.bottom-2 { bottom: 2rem; }
+.left-2   { left:   2rem; }
+
+.top--1    { top:    -1rem; }
+.right--1  { right:  -1rem; }
+.bottom--1 { bottom: -1rem; }
+.left--1   { left:   -1rem; }
+
+.top--2    { top:    -2rem; }
+.right--2  { right:  -2rem; }
+.bottom--2 { bottom: -2rem; }
+.left--2   { left:   -2rem; }
+
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 
 .absolute--fill {
   top: 0;
@@ -102,6 +140,7 @@
 }
 
 @media #{$breakpoint-not-small} {
+<<<<<<< HEAD
   .top-0-ns {
     top: 0;
   }
@@ -162,6 +201,28 @@
   .left--2-ns {
     left: -2rem;
   }
+=======
+  .top-0-ns     { top:   0; }
+  .left-0-ns    { left:  0; }
+  .right-0-ns   { right: 0; }
+  .bottom-0-ns  { bottom: 0; }
+  .top-1-ns     { top:   1rem; }
+  .left-1-ns    { left:  1rem; }
+  .right-1-ns   { right: 1rem; }
+  .bottom-1-ns  { bottom: 1rem; }
+  .top-2-ns     { top:   2rem; }
+  .left-2-ns    { left:  2rem; }
+  .right-2-ns   { right: 2rem; }
+  .bottom-2-ns  { bottom: 2rem; }
+  .top--1-ns    { top:    -1rem; }
+  .right--1-ns  { right:  -1rem; }
+  .bottom--1-ns { bottom: -1rem; }
+  .left--1-ns   { left:   -1rem; }
+  .top--2-ns    { top:    -2rem; }
+  .right--2-ns  { right:  -2rem; }
+  .bottom--2-ns { bottom: -2rem; }
+  .left--2-ns   { left:   -2rem; }
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   .absolute--fill-ns {
     top: 0;
     right: 0;
@@ -171,6 +232,7 @@
 }
 
 @media #{$breakpoint-medium} {
+<<<<<<< HEAD
   .top-0-m {
     top: 0;
   }
@@ -231,6 +293,28 @@
   .left--2-m {
     left: -2rem;
   }
+=======
+  .top-0-m     { top:   0; }
+  .left-0-m    { left:  0; }
+  .right-0-m   { right: 0; }
+  .bottom-0-m  { bottom: 0; }
+  .top-1-m     { top:   1rem; }
+  .left-1-m    { left:  1rem; }
+  .right-1-m   { right: 1rem; }
+  .bottom-1-m  { bottom: 1rem; }
+  .top-2-m     { top:   2rem; }
+  .left-2-m    { left:  2rem; }
+  .right-2-m   { right: 2rem; }
+  .bottom-2-m  { bottom: 2rem; }
+  .top--1-m    { top:    -1rem; }
+  .right--1-m  { right:  -1rem; }
+  .bottom--1-m { bottom: -1rem; }
+  .left--1-m   { left:   -1rem; }
+  .top--2-m    { top:    -2rem; }
+  .right--2-m  { right:  -2rem; }
+  .bottom--2-m { bottom: -2rem; }
+  .left--2-m   { left:   -2rem; }
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   .absolute--fill-m {
     top: 0;
     right: 0;
@@ -240,6 +324,7 @@
 }
 
 @media #{$breakpoint-large} {
+<<<<<<< HEAD
   .top-0-l {
     top: 0;
   }
@@ -300,6 +385,28 @@
   .left--2-l {
     left: -2rem;
   }
+=======
+  .top-0-l     { top:   0; }
+  .left-0-l    { left:  0; }
+  .right-0-l   { right: 0; }
+  .bottom-0-l  { bottom: 0; }
+  .top-1-l     { top:   1rem; }
+  .left-1-l    { left:  1rem; }
+  .right-1-l   { right: 1rem; }
+  .bottom-1-l  { bottom: 1rem; }
+  .top-2-l     { top:   2rem; }
+  .left-2-l    { left:  2rem; }
+  .right-2-l   { right: 2rem; }
+  .bottom-2-l  { bottom: 2rem; }
+  .top--1-l    { top:    -1rem; }
+  .right--1-l  { right:  -1rem; }
+  .bottom--1-l { bottom: -1rem; }
+  .left--1-l   { left:   -1rem; }
+  .top--2-l    { top:    -2rem; }
+  .right--2-l  { right:  -2rem; }
+  .bottom--2-l { bottom: -2rem; }
+  .left--2-l   { left:   -2rem; }
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   .absolute--fill-l {
     top: 0;
     right: 0;

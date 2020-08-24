@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 // Converted Variables
 
 // Custom Media Query Variables
 
+=======
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 /*
 
    LETTER SPACING
@@ -14,6 +24,7 @@
 
 */
 
+<<<<<<< HEAD
 .tracked {
   letter-spacing: $letter-spacing-1;
 }
@@ -58,4 +69,26 @@
   .tracked-mega-l {
     letter-spacing: $letter-spacing-2;
   }
+=======
+.tracked       { letter-spacing:  $letter-spacing-1; }
+.tracked-tight { letter-spacing: $letter-spacing-tight; }
+.tracked-mega  { letter-spacing:  $letter-spacing-2; }
+
+@media #{$breakpoint-not-small} {
+  .tracked-ns       { letter-spacing:  $letter-spacing-1; }
+  .tracked-tight-ns { letter-spacing: $letter-spacing-tight; }
+  .tracked-mega-ns  { letter-spacing:  $letter-spacing-2; }
+}
+
+@media #{$breakpoint-medium} {
+  .tracked-m       { letter-spacing:  $letter-spacing-1; }
+  .tracked-tight-m { letter-spacing: $letter-spacing-tight; }
+  .tracked-mega-m  { letter-spacing:  $letter-spacing-2; }
+}
+
+@media #{$breakpoint-large} {
+  .tracked-l       { letter-spacing:  $letter-spacing-1; }
+  .tracked-tight-l { letter-spacing: $letter-spacing-tight; }
+  .tracked-mega-l  { letter-spacing:  $letter-spacing-2; }
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }

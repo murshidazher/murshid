@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 // Converted Variables
 
 // Custom Media Query Variables
 
+=======
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -63,8 +73,12 @@ h1 {
 
 figcaption,
 figure,
+<<<<<<< HEAD
 main {
   /* 1 */
+=======
+main { /* 1 */
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   display: block;
 }
 
@@ -259,8 +273,12 @@ textarea {
  */
 
 button,
+<<<<<<< HEAD
 input {
   /* 1 */
+=======
+input { /* 1 */
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   overflow: visible;
 }
 
@@ -270,8 +288,12 @@ input {
  */
 
 button,
+<<<<<<< HEAD
 select {
   /* 1 */
+=======
+select { /* 1 */
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   text-transform: none;
 }
 
@@ -293,9 +315,15 @@ html [type="button"], /* 1 */
  */
 
 button::-moz-focus-inner,
+<<<<<<< HEAD
 [type='button']::-moz-focus-inner,
 [type='reset']::-moz-focus-inner,
 [type='submit']::-moz-focus-inner {
+=======
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   border-style: none;
   padding: 0;
 }
@@ -305,9 +333,15 @@ button::-moz-focus-inner,
  */
 
 button:-moz-focusring,
+<<<<<<< HEAD
 [type='button']:-moz-focusring,
 [type='reset']:-moz-focusring,
 [type='submit']:-moz-focusring {
+=======
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   outline: 1px dotted ButtonText;
 }
 
@@ -358,8 +392,13 @@ textarea {
  * 2. Remove the padding in IE 10-.
  */
 
+<<<<<<< HEAD
 [type='checkbox'],
 [type='radio'] {
+=======
+[type="checkbox"],
+[type="radio"] {
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
@@ -368,8 +407,13 @@ textarea {
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
+<<<<<<< HEAD
 [type='number']::-webkit-inner-spin-button,
 [type='number']::-webkit-outer-spin-button {
+=======
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   height: auto;
 }
 
@@ -378,7 +422,11 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 
+<<<<<<< HEAD
 [type='search'] {
+=======
+[type="search"] {
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
@@ -387,8 +435,13 @@ textarea {
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
 
+<<<<<<< HEAD
 [type='search']::-webkit-search-cancel-button,
 [type='search']::-webkit-search-decoration {
+=======
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   -webkit-appearance: none;
 }
 

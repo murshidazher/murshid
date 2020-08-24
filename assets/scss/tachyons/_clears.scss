@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 // Converted Variables
 
 // Custom Media Query Variables
 
+=======
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 /*
 
    CLEARFIX
@@ -13,6 +23,7 @@
    Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
 
 .cf:before,
+<<<<<<< HEAD
 .cf:after {
   content: ' ';
   display: table;
@@ -80,4 +91,34 @@
   .cn-l {
     clear: none;
   }
+=======
+.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf {       *zoom: 1; }
+
+.cl { clear: left; }
+.cr { clear: right; }
+.cb { clear: both; }
+.cn { clear: none; }
+
+@media #{$breakpoint-not-small} {
+  .cl-ns { clear: left; }
+  .cr-ns { clear: right; }
+  .cb-ns { clear: both; }
+  .cn-ns { clear: none; }
+}
+
+@media #{$breakpoint-medium} {
+  .cl-m { clear: left; }
+  .cr-m { clear: right; }
+  .cb-m { clear: both; }
+  .cn-m { clear: none; }
+}
+
+@media #{$breakpoint-large} {
+  .cl-l { clear: left; }
+  .cr-l { clear: right; }
+  .cb-l { clear: both; }
+  .cn-l { clear: none; }
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }

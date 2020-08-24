@@ -1,13 +1,24 @@
+<<<<<<< HEAD
 // Converted Variables
 
 // Custom Media Query Variables
 
+=======
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 /*
 
    ROTATIONS
 
 */
 
+<<<<<<< HEAD
 .rotate-45 {
   transform: rotate(45deg);
 }
@@ -100,4 +111,42 @@
   .rotate-315-l {
     transform: rotate(315deg);
   }
+=======
+.rotate-45 { transform: rotate(45deg); }
+.rotate-90 { transform: rotate(90deg); }
+.rotate-135 { transform: rotate(135deg); }
+.rotate-180 { transform: rotate(180deg); }
+.rotate-225 { transform: rotate(225deg); }
+.rotate-270 { transform: rotate(270deg); }
+.rotate-315 { transform: rotate(315deg); }
+
+@media #{$breakpoint-not-small}{
+  .rotate-45-ns { transform: rotate(45deg); }
+  .rotate-90-ns { transform: rotate(90deg); }
+  .rotate-135-ns { transform: rotate(135deg); }
+  .rotate-180-ns { transform: rotate(180deg); }
+  .rotate-225-ns { transform: rotate(225deg); }
+  .rotate-270-ns { transform: rotate(270deg); }
+  .rotate-315-ns { transform: rotate(315deg); }
+}
+
+@media #{$breakpoint-medium}{
+  .rotate-45-m { transform: rotate(45deg); }
+  .rotate-90-m { transform: rotate(90deg); }
+  .rotate-135-m { transform: rotate(135deg); }
+  .rotate-180-m { transform: rotate(180deg); }
+  .rotate-225-m { transform: rotate(225deg); }
+  .rotate-270-m { transform: rotate(270deg); }
+  .rotate-315-m { transform: rotate(315deg); }
+}
+
+@media #{$breakpoint-large}{
+  .rotate-45-l { transform: rotate(45deg); }
+  .rotate-90-l { transform: rotate(90deg); }
+  .rotate-135-l { transform: rotate(135deg); }
+  .rotate-180-l { transform: rotate(180deg); }
+  .rotate-225-l { transform: rotate(225deg); }
+  .rotate-270-l { transform: rotate(270deg); }
+  .rotate-315-l { transform: rotate(315deg); }
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }

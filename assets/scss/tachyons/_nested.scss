@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 // Converted Variables
 
 // Custom Media Query Variables
 
+=======
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 /*
 
     NESTED
@@ -32,13 +42,21 @@
   list-style-type: none;
 }
 
+<<<<<<< HEAD
 .nested-copy-indent p + p {
+=======
+.nested-copy-indent p+p {
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   text-indent: $letter-spacing-1;
   margin-top: $spacing-none;
   margin-bottom: $spacing-none;
 }
 
+<<<<<<< HEAD
 .nested-copy-seperator p + p {
+=======
+.nested-copy-seperator p+p {
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   margin-top: $spacing-copy-separator;
 }
 
@@ -50,11 +68,19 @@
 
 .nested-links a {
   color: $blue;
+<<<<<<< HEAD
   transition: color 0.15s ease-in;
+=======
+  transition: color .15s ease-in;
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }
 
 .nested-links a:hover,
 .nested-links a:focus {
   color: $light-blue;
+<<<<<<< HEAD
   transition: color 0.15s ease-in;
+=======
+  transition: color .15s ease-in;
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }

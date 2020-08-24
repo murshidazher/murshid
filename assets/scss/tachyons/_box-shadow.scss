@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 // Converted Variables
 
 // Custom Media Query Variables
 
+=======
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 /*
 
   BOX-SHADOW
@@ -14,6 +24,7 @@
 
  */
 
+<<<<<<< HEAD
 .shadow-1 {
   box-shadow: $box-shadow-1;
 }
@@ -82,4 +93,34 @@
   .shadow-5-l {
     box-shadow: $box-shadow-5;
   }
+=======
+.shadow-1 { box-shadow: $box-shadow-1; }
+.shadow-2 { box-shadow: $box-shadow-2; }
+.shadow-3 { box-shadow: $box-shadow-3; }
+.shadow-4 { box-shadow: $box-shadow-4; }
+.shadow-5 { box-shadow: $box-shadow-5; }
+
+@media #{$breakpoint-not-small} {
+  .shadow-1-ns { box-shadow: $box-shadow-1; }
+  .shadow-2-ns { box-shadow: $box-shadow-2; }
+  .shadow-3-ns { box-shadow: $box-shadow-3; }
+  .shadow-4-ns { box-shadow: $box-shadow-4; }
+  .shadow-5-ns { box-shadow: $box-shadow-5; }
+}
+
+@media #{$breakpoint-medium} {
+  .shadow-1-m { box-shadow: $box-shadow-1; }
+  .shadow-2-m { box-shadow: $box-shadow-2; }
+  .shadow-3-m { box-shadow: $box-shadow-3; }
+  .shadow-4-m { box-shadow: $box-shadow-4; }
+  .shadow-5-m { box-shadow: $box-shadow-5; }
+}
+
+@media #{$breakpoint-large} {
+  .shadow-1-l { box-shadow: $box-shadow-1; }
+  .shadow-2-l { box-shadow: $box-shadow-2; }
+  .shadow-3-l { box-shadow: $box-shadow-3; }
+  .shadow-4-l { box-shadow: $box-shadow-4; }
+  .shadow-5-l { box-shadow: $box-shadow-5; }
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }

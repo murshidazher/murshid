@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 // Converted Variables
 
 // Custom Media Query Variables
 
+=======
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 /*
 
   HOVER EFFECTS
@@ -24,6 +34,7 @@
 */
 .dim {
   opacity: 1;
+<<<<<<< HEAD
   transition: opacity 0.15s ease-in;
 }
 .dim:hover,
@@ -34,6 +45,17 @@
 .dim:active {
   opacity: 0.8;
   transition: opacity 0.15s ease-out;
+=======
+  transition: opacity .15s ease-in;
+}
+.dim:hover,
+.dim:focus {
+  opacity: .5;
+  transition: opacity .15s ease-in;
+}
+.dim:active {
+  opacity: .8; transition: opacity .15s ease-out;
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }
 
 /*
@@ -42,12 +64,20 @@
 
 */
 .glow {
+<<<<<<< HEAD
   transition: opacity 0.15s ease-in;
+=======
+  transition: opacity .15s ease-in;
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }
 .glow:hover,
 .glow:focus {
   opacity: 1;
+<<<<<<< HEAD
   transition: opacity 0.15s ease-in;
+=======
+  transition: opacity .15s ease-in;
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }
 
 /*
@@ -67,6 +97,7 @@
 
 .hide-child .child {
   opacity: 0;
+<<<<<<< HEAD
   transition: opacity 0.15s ease-in;
 }
 .hide-child:hover .child,
@@ -74,6 +105,15 @@
 .hide-child:active .child {
   opacity: 1;
   transition: opacity 0.15s ease-in;
+=======
+  transition: opacity .15s ease-in;
+}
+.hide-child:hover  .child,
+.hide-child:focus  .child,
+.hide-child:active .child {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }
 
 .underline-hover:hover,
@@ -97,14 +137,22 @@
 }
 
 .grow:active {
+<<<<<<< HEAD
   transform: scale(0.9);
+=======
+  transform: scale(.90);
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }
 
 .grow-large {
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translateZ(0);
+<<<<<<< HEAD
   transition: transform 0.25s ease-in-out;
+=======
+  transition: transform .25s ease-in-out;
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }
 
 .grow-large:hover,
@@ -113,7 +161,11 @@
 }
 
 .grow-large:active {
+<<<<<<< HEAD
   transform: scale(0.95);
+=======
+  transform: scale(.95);
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }
 
 /* Add pointer on hover */
@@ -137,7 +189,11 @@
 
 .shadow-hover::after {
   content: '';
+<<<<<<< HEAD
   box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.2);
+=======
+  box-shadow: 0px 0px 16px 2px rgba( 0, 0, 0, .2 );
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
   border-radius: inherit;
   opacity: 0;
   position: absolute;
@@ -160,5 +216,9 @@
 .bg-animate,
 .bg-animate:hover,
 .bg-animate:focus {
+<<<<<<< HEAD
   transition: background-color 0.15s ease-in-out;
+=======
+  transition: background-color .15s ease-in-out;
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }

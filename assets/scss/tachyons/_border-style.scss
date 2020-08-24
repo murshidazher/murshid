@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 // Converted Variables
 
 // Custom Media Query Variables
 
+=======
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 /*
 
    BORDER STYLES
@@ -25,6 +35,7 @@
 
  */
 
+<<<<<<< HEAD
 .b--dotted {
   border-style: dotted;
 }
@@ -81,4 +92,30 @@
   .b--none-l {
     border-style: none;
   }
+=======
+.b--dotted { border-style: dotted; }
+.b--dashed { border-style: dashed; }
+.b--solid {  border-style: solid; }
+.b--none {   border-style: none; }
+
+@media #{$breakpoint-not-small} {
+  .b--dotted-ns { border-style: dotted; }
+  .b--dashed-ns { border-style: dashed; }
+  .b--solid-ns {  border-style: solid; }
+  .b--none-ns {   border-style: none; }
+}
+
+@media #{$breakpoint-medium} {
+  .b--dotted-m { border-style: dotted; }
+  .b--dashed-m { border-style: dashed; }
+  .b--solid-m {  border-style: solid; }
+  .b--none-m {   border-style: none; }
+}
+
+@media #{$breakpoint-large} {
+  .b--dotted-l { border-style: dotted; }
+  .b--dashed-l { border-style: dashed; }
+  .b--solid-l {  border-style: solid; }
+  .b--none-l {   border-style: none; }
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }

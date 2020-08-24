@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 // Converted Variables
 
 // Custom Media Query Variables
 
+=======
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 /*
 
    FONT STYLE
@@ -14,6 +24,7 @@
 
 */
 
+<<<<<<< HEAD
 .i {
   font-style: italic;
 }
@@ -46,4 +57,22 @@
   .fs-normal-l {
     font-style: normal;
   }
+=======
+.i         { font-style: italic; }
+.fs-normal { font-style: normal; }
+
+@media #{$breakpoint-not-small} {
+  .i-ns       { font-style: italic; }
+  .fs-normal-ns     { font-style: normal; }
+}
+
+@media #{$breakpoint-medium} {
+  .i-m       { font-style: italic; }
+  .fs-normal-m     { font-style: normal; }
+}
+
+@media #{$breakpoint-large} {
+  .i-l       { font-style: italic; }
+  .fs-normal-l     { font-style: normal; }
+>>>>>>> 78151dbba023c3a7ad54e76e262c5a4c351a6c45
 }
