@@ -1,3 +1,17 @@
+<header id="site-header" class="relative text-lg md:flex md:items-center">
+    <nav class="navbar">
+        sdqq
+        {{/* Search and theme-toggle buttons */}}
+            <div class="flex justify-start items-center p-0 ml-0 md:ml-auto">
+                {{ if site.Params.minisearch_enabled }}
+                <span id="header-search-button">
+                    <i data-feather="search" class="site-header-navlink p-2 rounded w-8 h-8 cursor-pointer"></i>
+                </span>
+                {{ end }}
+                <i id="header-theme-button" data-feather="sun" class="site-header-navlink p-2 rounded w-8 h-8 cursor-pointer"></i>
+            </div>
+    </nav>
+</header>
 <header role="banner">
   <section class="row-nm">
     <a href="/" class="logo" alt="{{ .Site.Author.name }}'s logo">

@@ -1,11 +1,11 @@
 name = "Murshid Starter"
 license = "MIT"
-licenselink = "Link to theme's license"
+licenselink = "https://github.com/murshidazher/murshid/blob/master/LICENSE"
 description = "Theme description"
-homepage = "Website of your theme"
+homepage = "https://github.com/murshidazher/murshid"
 tags = ["blog", "company"]
 features = ["some", "awesome", "features"]
-min_version = "0.55.0"
+min_version = "0.69.0"
 
 [author]
     name = "Your name"

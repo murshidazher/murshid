@@ -4,6 +4,8 @@
 {{- $codeblock := resources.Get "js/copy-code-block.js" -}}
 {{- $likes := resources.Get "js/likes.js" -}}
 
+
+
 <!-- Concat JS, generate default app.js and app-likes -->
 
 {{- $defaultJS := slice $cloudinary $lazysizes $codeblock $likes | resources.Concat "app.js" -}}
@@ -23,6 +25,9 @@
 
 <!-- Load for interactive graphs -->
 {{ if .Params.diagram }}{{ partial "diagram.html" . }}{{ end }}
+
+<script>feather.replace()</script>
+
 
 <script>
   function animateToTop(e) {

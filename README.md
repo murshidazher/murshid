@@ -65,6 +65,16 @@ npx browserslist@latest --update-db
 - [ ] Add service worker for offline capabilities.
 - [ ] Next and Prev. inside a single blog post.
 - [ ] Add `stylelint` for SCSS style linting.
+- [ ] https://www.y1zhou.com/series/nonparam-stat/4-association-analysis/nonparametric-methods-categorical-data/
+- [ ] https://github.com/y1zhou/hugo-northeast
+- [ ] https://github.com/theNewDynamic/thenewdynamic.com/blob/main/package.json
+- [ ] https://github.com/murshidazher/murshid/commit/985ccc542325ddb034006d3624ebf56822455139
+- [ ] https://github.com/murshidazher/murshid/commit/a031afcb103580d03cbe94a41dcb223e0d2983a8
+- [ ] https://www.figma.com/file/aUAwepJ9jgstPYefzVKx2P/StoryTeller-Wireframe-Kit-(demo)?node-id=548%3A3662
+- [ ] https://ui8.net/hanna-sh/products/story-teller
+- [ ] https://ui8.net/safwan-murtadha/products/3d-character-library
+- [ ] https://www.figma.com/community/file/967697424986671702?preview=fullscreen
+- [ ] https://flexplate.netlify.app/abildon/index.html
 
 ## Links
 
