@@ -1,0 +1,2 @@
+[{{- $list := (.Site.RegularPages) -}}{{- $len := (len $list) -}}{{- range $index, $element := $list -}}{"href": "{{- .Permalink -}}", "title": "{{- .Title -}}", "categories": [{{- $tags := (.Params.tags) -}}{{- $len := (len $list) -}}{{- range $tindex, $tag := $tags -}}{{- if $tindex -}}, {{- end -}}"{{- $tag | htmlEscape -}}"{{- end -}}], "content": {{- .Content | plainify | jsonify -}}}{{- if ne (add $index 1) $len -}},{{- end -}}{{- end -}}]
+

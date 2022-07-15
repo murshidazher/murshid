@@ -1,14 +1,18 @@
+<!-- Load lunr for search --><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.js"></script>
+
 <!-- Store JS files independently -->
 {{- $cloudinary := resources.Get "js/cloudinary-core-shrinkwrap.min.js" -}}
 {{- $preline := resources.Get "js/preline.min.js" -}}
+{{- $keymaster := resources.Get "js/keymaster.js" -}}
+{{- $shortcuts := resources.Get "js/shortcuts.js" -}}
+{{- $search := resources.Get "js/search.js" -}}
 {{- $lazysizes := resources.Get "js/lazysizes.js" -}}
 {{- $codeblock := resources.Get "js/copy-code-block.js" -}}
 {{- $likes := resources.Get "js/likes.js" -}}
 
 
 <!-- Concat JS, generate default app.js and app-likes -->
-
-{{- $defaultJS := slice $cloudinary $preline $lazysizes $codeblock $likes | resources.Concat "app.js" -}}
+{{- $defaultJS := slice $cloudinary $preline $keymaster $search $shortcuts $lazysizes $codeblock $likes | resources.Concat "app.js" -}}
 <!-- Set default -->
 {{- $script := $defaultJS -}}
 <!-- Assign script to global, minify and fingerprint -->
@@ -28,6 +32,7 @@
 {{- $hsTheme := resources.Get "js/hs.theme-appearance.js" -}}
 {{- $hsThemeJS := $hsTheme | resources.Fingerprint "sha512" -}}
 <script src="{{ $hsThemeJS.Permalink }}" integrity="{{ $hsThemeJS.Data.Integrity }}" media="screen"></script>
+
 
 
 <script>

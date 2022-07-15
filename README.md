@@ -75,6 +75,8 @@ npx browserslist@latest --update-db
 - [ ] https://ui8.net/safwan-murtadha/products/3d-character-library
 - [ ] https://www.figma.com/community/file/967697424986671702?preview=fullscreen
 - [ ] https://flexplate.netlify.app/abildon/index.html
+- [ ] https://ruddra.com/add-search-functionality-hugo/
+- [ ] Example static site search with lunr - https://codepen.io/a-luna/pen/GRooENM
 
 ## Links
 

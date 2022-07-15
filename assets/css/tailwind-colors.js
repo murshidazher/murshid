@@ -1,7 +1,5 @@
-// DEFAULT colors are for the light theme, and dark colors are for the dark theme.
-// Names adopted from Material Design:
-// https://material.io/design/color/the-color-system.html
 const colors = require("tailwindcss/colors");
+
 module.exports = {
     // buttons, tags
     primary: {

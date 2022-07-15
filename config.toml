@@ -57,7 +57,7 @@ enableEmoji = true
   tag = "tags"
 
 [outputs]
-  home = [ "HTML", "RSS" ]
+  home = [ "HTML", "RSS", "JSON" ]
 
 [markup.goldmark.renderer]
   unsafe = true
