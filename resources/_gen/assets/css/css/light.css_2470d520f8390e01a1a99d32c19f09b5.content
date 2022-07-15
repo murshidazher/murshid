@@ -4,7 +4,12 @@
     background-color: rgb(243 244 246 / var(--tw-bg-opacity))
 }
 /* Text elements */
-h1, h2, h3, h4, h5, h6 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
     --tw-text-opacity: 1;
     color: rgb(17 24 39 / var(--tw-text-opacity))
 }
@@ -27,7 +32,8 @@ mark {
     --tw-text-opacity: 1;
     color: rgb(220 38 38 / var(--tw-text-opacity))
 }
-code.has-jax, div.has-jax {
+code.has-jax, 
+div.has-jax {
     --tw-text-opacity: 1;
     color: rgb(17 24 39 / var(--tw-text-opacity))
 }
@@ -35,7 +41,8 @@ code.has-jax, div.has-jax {
     --tw-text-opacity: 1;
     color: rgb(29 78 216 / var(--tw-text-opacity))
 }
-.article-container ul, .article-container ol {
+.article-container ul, 
+.article-container ol {
     --tw-text-opacity: 1;
     color: rgb(17 24 39 / var(--tw-text-opacity))
 }
@@ -53,7 +60,8 @@ code.has-jax, div.has-jax {
     --tw-bg-opacity: 1;
     background-color: rgb(254 243 199 / var(--tw-bg-opacity))
 }
-.article-container figcaption, .article-container .figure p.caption {
+.article-container figcaption, 
+.article-container .figure p.caption {
     --tw-text-opacity: 1;
     color: rgb(107 114 128 / var(--tw-text-opacity))
 }
@@ -98,7 +106,8 @@ section.footnotes:before {
     --tw-text-opacity: 1;
     color: rgb(107 114 128 / var(--tw-text-opacity))
 }
-#toc-background-mask, #search-screen {
+#toc-background-mask, 
+#search-screen {
     background-color: rgb(17 24 39 / var(--tw-bg-opacity));
     --tw-bg-opacity: 0.6
 }
@@ -152,7 +161,8 @@ ul.search-results li:hover {
     --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
-.round-button button, button.round-button {
+.round-button button, 
+button.round-button {
     --tw-text-opacity: 1;
     color: rgb(17 24 39 / var(--tw-text-opacity))
 }

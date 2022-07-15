@@ -3,7 +3,12 @@ body {
     --tw-bg-opacity: 1;
     background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
-h1, h2, h3, h4, h5, h6 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
     --tw-text-opacity: 1;
     color: rgb(229 231 235 / var(--tw-text-opacity));
 }
@@ -26,7 +31,8 @@ mark {
     --tw-text-opacity: 1;
     color: rgb(153 27 27 / var(--tw-text-opacity));
 }
-code.has-jax, div.has-jax {
+code.has-jax, 
+div.has-jax {
     --tw-text-opacity: 1;
     color: rgb(229 231 235 / var(--tw-text-opacity));
 }
@@ -40,7 +46,8 @@ code.has-jax, div.has-jax {
     --tw-text-opacity: 1;
     color: rgb(96 165 250 / var(--tw-text-opacity));
 }
-.article-container ul, .article-container ol {
+.article-container ul, 
+.article-container ol {
     --tw-text-opacity: 1;
     color: rgb(229 231 235 / var(--tw-text-opacity));
 }
@@ -60,7 +67,8 @@ code.has-jax, div.has-jax {
     --tw-bg-opacity: 1;
     background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
-.article-container figcaption, .article-container .figure p.caption {
+.article-container figcaption, 
+.article-container .figure p.caption {
     --tw-text-opacity: 1;
     color: rgb(156 163 175 / var(--tw-text-opacity));
 }
@@ -117,7 +125,8 @@ section.footnotes:before {
     --tw-text-opacity: 1;
     color: rgb(156 163 175 / var(--tw-text-opacity));
 }
-#toc-background-mask, #search-screen {
+#toc-background-mask, 
+#search-screen {
     background-color: rgb(17 24 39 / var(--tw-bg-opacity));
     --tw-bg-opacity: 0.6;
 }
@@ -168,11 +177,13 @@ ul.search-results li:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
-.round-button button, button.round-button {
+.round-button button, 
+button.round-button {
     --tw-text-opacity: 1;
     color: rgb(156 163 175 / var(--tw-text-opacity));
 }
-.round-button button:hover, button.round-button:hover {
+.round-button button:hover, 
+button.round-button:hover {
     --tw-text-opacity: 1;
     color: rgb(17 24 39 / var(--tw-text-opacity));
 }

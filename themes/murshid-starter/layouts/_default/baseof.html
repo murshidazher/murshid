@@ -10,11 +10,10 @@
 
 
   <body class="dark:bg-slate-900 min-h-[75rem]" aria-live="polite">
-    <a class="skip-link" href="#main-content">Skip to main content</a>
-    <!-- {{ partial "banner.html" . .Section -}} -->
-
     {{ partial "header.html" . .Section -}}
 
+
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
     <main id="main-content">
       <div class="md:pt-104 lg:pt-88 md:-mt-96">
@@ -24,10 +23,9 @@
         </div>
       </div>
     </main>
+
     {{- partialCached "footer.html" . .Type -}}
     {{- partial "footer_includes.html" . .Type -}}
-
-
-    <!-- {{ partial "newsletter.html" . }} -->
+    {{- partial "blocks/global-search-modal.html" . .Type -}}
   </body>
 </html>

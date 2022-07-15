@@ -131,14 +131,10 @@
   <!-- TailwindCSS -->
   {{ partialCached "tailwind.html" . }}
 
-  <!-- Feather icons -->
-{{- $feather := resources.Get "js/feather.min.js" -}}
-{{- $featherJS := $feather | resources.Fingerprint "sha512" -}}
-<script src="{{ $featherJS.Permalink }}" integrity="{{ $featherJS.Data.Integrity }}" media="screen"></script>
 
-{{- $theme_toggle := resources.Get "js/theme-toggle.js" -}}
-{{- $theme_toggleJS := $theme_toggle | resources.Fingerprint "sha512" -}}
-<script src="{{ $theme_toggleJS.Permalink }}" integrity="{{ $theme_toggleJS.Data.Integrity }}" media="screen"></script>
+  <!-- Feather icons -->
+  {{- $feather := resources.Get "js/feather.min.js" -}}
+  {{- $featherJS := $feather | resources.Fingerprint "sha512" -}}<script src="{{ $featherJS.Permalink }}" integrity="{{ $featherJS.Data.Integrity }}" media="screen"></script>
 
   <!-- Icons -->
   <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}img/apple-touch-icon.png" />
@@ -147,12 +143,14 @@
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.ico" type="image/x-icon" />
   <!-- RSS -->
   {{ with .OutputFormats.Get "rss" -}}
- {{ printf `<link rel="%s" type="%s" href="%s" alt="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
- {{ end -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" alt="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+
 
   <!-- Google Analytics -->
   {{ template "_internal/google_analytics.html" . }}
   {{ partialCached "seo_schema.html" . }}
+
 
   <!-- Load for interactive graphs -->
   {{ if .Params.graph }}{{ partial "graph.html" . }}{{ end }}

@@ -13,8 +13,7 @@
 {{- $script := $defaultJS -}}
 <!-- Assign script to global, minify and fingerprint -->
 {{- $globalJS := $script | resources.Minify | resources.Fingerprint "sha512" -}}
-<!-- Load script and authenticate hashed file --><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript" crossorigin="anonymous"></script>
-<script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}" media="screen"></script>
+<!-- Load script and authenticate hashed file --><script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}" media="screen"></script>
 
 <!-- To automatically render math in text elements, include the auto-render extension: -->
 {{ if .Params.math }}{{ partial "math.html" . }}{{ end }}
@@ -25,8 +24,6 @@
 <!-- Load for interactive graphs -->
 {{ if .Params.diagram }}{{ partial "diagram.html" . }}{{ end }}
 
-<script>feather.replace()</script>
-
 <!-- hsTheme -->
 {{- $hsTheme := resources.Get "js/hs.theme-appearance.js" -}}
 {{- $hsThemeJS := $hsTheme | resources.Fingerprint "sha512" -}}
@@ -34,6 +31,10 @@
 
 
 <script>
+    // Load feather icons
+    feather.replace()
+
+    // Animate to top scroll
   function animateToTop(e) {
     e.preventDefault()
     var scrollToTop = window.setInterval(function () {
