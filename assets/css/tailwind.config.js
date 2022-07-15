@@ -5,6 +5,7 @@ module.exports = {
     content: [
         themeDir + "layouts/**/*.html",
         themeDir + "content/**/*.html",
+        "node_modules/preline/dist/*.js",
         "layouts/**/*.html",
         "content/**/*.html",
         "exampleSite/layouts/**/*.html",
@@ -12,15 +13,17 @@ module.exports = {
     ],
     theme: {
         extend: {
-            fontFamily: {
-                sans: ['"Open Sans"', ...defaultTheme.fontFamily.sans],
-                serif: ['"PT Serif"', ...defaultTheme.fontFamily.serif],
-                mono: ['"JetBrains Mono"', ...defaultTheme.fontFamily.mono],
-            },
+            // fontFamily: {
+            //     sans: ['"Inter"', ...defaultTheme.fontFamily.sans],
+            //     serif: ['"PT Serif"', ...defaultTheme.fontFamily.serif],
+            //     mono: ['"JetBrains Mono"', ...defaultTheme.fontFamily.mono],
+            // },
             colors: {
                 ne: neColors,
             },
         },
     },
-    plugins: [],
+    plugins: [
+        require('preline/plugin'),
+    ],
 };

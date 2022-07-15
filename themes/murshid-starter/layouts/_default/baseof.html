@@ -2,16 +2,19 @@
 <!DOCTYPE html>
 
 {{ "<!--[if lt IE 9]><html class='lt-ie9'><![endif]-->" | safeHTML }}
-{{ "<!--[if gt IE 8]><!--><html lang='en'><!--<![endif]-->" | safeHTML}}
+{{ "<!--[if gt IE 8]><!--><html lang='en'><!--<![endif]-->" | safeHTML }}
+
 
 <html dir="ltr" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}" itemscope itemtype="http://schema.org/WebSite" prefix="og: http://ogp.me/ns#">
-  {{ partial "head.html" . .Section  -}}
+  {{ partial "head.html" . .Section -}}
 
-  <body aria-live="polite">
+
+  <body class="dark:bg-slate-900 min-h-[75rem]" aria-live="polite">
     <a class="skip-link" href="#main-content">Skip to main content</a>
-    <!-- {{ partial "banner.html" . .Section  -}} -->
+    <!-- {{ partial "banner.html" . .Section -}} -->
 
-    {{ partial "header.html" . .Section  -}}
+    {{ partial "header.html" . .Section -}}
+
 
     <main id="main-content">
       <div class="md:pt-104 lg:pt-88 md:-mt-96">
@@ -22,7 +25,8 @@
       </div>
     </main>
     {{- partialCached "footer.html" . .Type -}}
- {{- partial "footer_includes.html" . .Type -}}
+    {{- partial "footer_includes.html" . .Type -}}
+
 
     <!-- {{ partial "newsletter.html" . }} -->
   </body>

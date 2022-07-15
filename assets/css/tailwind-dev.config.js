@@ -6,6 +6,7 @@ module.exports = {
         themeDir + "layouts/**/*.html",
         themeDir + "content/**/*.html",
         themeDir + "content/**/*.html",
+        "node_modules/preline/dist/*.js",
         "themes/murshid-starter/layouts/**/*.html",
         "content/**/*.html",
         "exampleSite/layouts/**/*.html",
@@ -13,15 +14,17 @@ module.exports = {
     ],
     theme: {
         extend: {
-            fontFamily: {
-                sans: ['"Open Sans"', ...defaultTheme.fontFamily.sans],
-                serif: ['"PT Serif"', ...defaultTheme.fontFamily.serif],
-                mono: ['"JetBrains Mono"', ...defaultTheme.fontFamily.mono],
-            },
+            // fontFamily: {
+            //     sans: ['"Inter"', ...defaultTheme.fontFamily.sans],
+            //     serif: ['"PT Serif"', ...defaultTheme.fontFamily.serif],
+            //     mono: ['"JetBrains Mono"', ...defaultTheme.fontFamily.mono],
+            // },
             colors: {
                 ne: neColors,
             },
         },
     },
-    plugins: [],
+    plugins: [
+        require('preline/plugin'),
+    ],
 };
