@@ -1,5 +1,5 @@
 // Define short of 'a'
-key('a', () => { let modalEl = document.getElementById('global-search-modal');  HSModal.toggle(modalEl) });
+key('⌘+k, ctrl+k', () => { let modalEl = document.getElementById('global-search-modal');  HSModal.toggle(modalEl) });
 
 // Returning false stops the event and prevents default browser events
 key('ctrl+r', function(){ alert('stopped reload!'); return false });
