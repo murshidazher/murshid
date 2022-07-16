@@ -1,6 +1,20 @@
-{{ "<!-- start of navigation -->" | safeHTML }}
+{{ "<!-- start of overlay -->" | safeHTML }}
+<div class="absolute z-20 top-0 inset-x-0 flex justify-center overflow-hidden pointer-events-none">
+  <div class="w-[108rem] flex-none flex justify-end">
+    <picture>
+      <source srcset="https://tailwindcss.com/_next/static/media/docs@30.beeb08605f12f699c5abc3814763b65e.avif" type="image/avif" />
+      <img src="https://tailwindcss.com/_next/static/media/docs@30.beeb08605f12f699c5abc3814763b65e.avif" alt="" class="w-[71.75rem] flex-none max-w-none dark:hidden" />
+    </picture>
+    <picture>
+      <source srcset="https://tailwindcss.com/_next/static/media/docs-dark@30.77f062b5fd90f0d2cd4752cd9a8649c8.avif" type="image/avif" />
+      <img src="https://tailwindcss.com/_next/static/media/docs-dark@30.77f062b5fd90f0d2cd4752cd9a8649c8.avif" alt="" class="w-[90rem] flex-none max-w-none hidden dark:block" />
+    </picture>
+  </div>
+</div>
+{{ "<!-- end of overlay -->" | safeHTML }}
+{{ "<!-- start of navigation (add this on header scroll backdrop-blur) -->" | safeHTML }}
 <header
-  class="sticky top-0 inset-x-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full backdrop-blur flex-none transition-colors duration-500 lg:z-50 lg:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06] bg-white/95 supports-backdrop-blur:bg-white/60 dark:bg-transparent"
+  class="sticky top-0 inset-x-0 flex flex-wrap z-50 w-full flex-none transition-colors duration-500 lg:z-50 xl:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06] bg-transparent supports-backdrop-blur:bg-white/60 dark:bg-transparent"
 >
   <nav class="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Main Navigation">
     <div class="flex items-center justify-between">
@@ -39,5 +53,4 @@
     </div>
   </nav>
 </header>
-
 {{ "<!-- end of navigation -->" | safeHTML }}

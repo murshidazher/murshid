@@ -1077,11 +1077,11 @@ button.round-button {
 .z-50 {
   z-index: 50;
 }
-.z-\[60\] {
-  z-index: 60;
-}
 .z-20 {
   z-index: 20;
+}
+.z-\[60\] {
+  z-index: 60;
 }
 .m-32 {
   margin: 8rem;
@@ -1191,11 +1191,23 @@ button.round-button {
 .w-48 {
   width: 12rem;
 }
+.w-\[108rem\] {
+  width: 108rem;
+}
+.w-\[71\.75rem\] {
+  width: 71.75rem;
+}
+.w-\[90rem\] {
+  width: 90rem;
+}
 .w-4 {
   width: 1rem;
 }
 .w-5\/6 {
   width: 83.333333%;
+}
+.max-w-none {
+  max-width: none;
 }
 .max-w-7xl {
   max-width: 80rem;
@@ -1232,6 +1244,9 @@ button.round-button {
 }
 .items-center {
   align-items: center;
+}
+.justify-end {
+  justify-content: flex-end;
 }
 .justify-center {
   justify-content: center;
@@ -1567,6 +1582,12 @@ button.round-button {
 .hover\:text-gray-400:hover {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+.dark .dark\:block {
+  display: block;
+}
+.dark .dark\:hidden {
+  display: none;
 }
 .dark .dark\:border-slate-50\/\[0\.06\] {
   border-color: rgb(248 250 252 / 0.06);
