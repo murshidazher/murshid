@@ -1,32 +1,12 @@
 const themeDir = __dirname + "/../../";
 const defaultTheme = require("tailwindcss/defaultTheme");
 const neColors = require("./tailwind-colors"); // ne stands for northeast;
-const fs = require('fs');
 const lineClamp = require('@tailwindcss/line-clamp');
 const typography = require('@tailwindcss/typography');
 const animationDelay = require('tailwindcss-animation-delay');
 const tailwindScrollbar = require('tailwind-scrollbar');
 const preline = require('preline/plugin');
 
-const getDynamicTailwindClasses = () => {
-    fs.readFile('../js/preline.min.js', {
-        encoding: 'utf8'
-    }, data => {
-        const regex = new RegExp("^o.classList" + "=(.*)$", "m");
-
-        const settings = data
-            .split('\n')
-            .reduce((obj, line) => {
-                const splits = line.split('=');
-                const key = splits[0];
-                if (splits.length > 1) {
-                    obj[key] = splits.slice(1).join('=');
-                }
-                return obj;
-            }, {});
-        // ...
-    });
-}
 
 module.exports = {
     mode: "jit",
