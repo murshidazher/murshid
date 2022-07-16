@@ -25,7 +25,8 @@
     </main>
 
     {{- partialCached "footer.html" . .Type -}}
-    {{- partial "footer_includes.html" . .Type -}}
     {{- partial "blocks/global-search-modal.html" . .Type -}}
+
+    {{- partial "footer_includes.html" . .Type -}}
   </body>
 </html>
