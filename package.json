@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "autoprefixer": "10.4.8",
-    "postcss-cli": "10.0.0"
+    "postcss-cli": "10.1.0"
   },
   "devDependencies": {
     "husky": "8.0.1",
